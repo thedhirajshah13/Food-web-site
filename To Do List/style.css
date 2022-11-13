@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background: #628E90;
+   
+}
+h1{
+    margin: 10% 0 4%;
+    
+}
+.class input{
+    width: 25%;
+    height: 4%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button{
+    padding: 10px 0px;
+    width: 6%;
+    border-radius: 5px;
+    background-color: #B4CDE6;
+}
+.class{
+    border: 1px solid white;
+    
+   
+}
+li{
+    list-style-type: none;
+    font-size: 30px;
+    margin: 4px;
+    line-height: 2;
+    cursor: pointer;   
+}
+.dell{
+    display:none;
+    background-color: #111;
+}
