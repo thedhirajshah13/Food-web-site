@@ -1,338 +1,285 @@
-body{
-    background-color: rgb(252, 252, 243);
-}
-#top{
-    background-image:url(top.avif);
-    
-   text-align: center;
-   padding: 3% 15% 8%;
-
-    
-    
-    
-}
-.navbar{
-
-display: flex;
-justify-content: space-between;
-padding: 3% 7%;
-
-}
-.navbar:hover{
-    color:#111;
-}
-.nav-item{
-    display: inline-block;
-    color: white;
-    list-style: none;
-    padding: 8px;
-    cursor: pointer;
-}
-.nav-brand-item{
-    text-decoration: none;
-    color: #fff;
-}
-
-
-
-body{
-    text-align: center;
-}
- #search {
-   
-    padding:15px;
-   
-    width: 80%;
-    margin: 5% 0%;
-    border-radius: 8px;
-    position: relative;
-}
-
-.nav-brand{
-    margin-top: 20px;
-    margin-left: 8px;
-    font-weight: 900;
-    
-}
-.toggel{
-    color: white;
-    display: none;
-}
-.cross{
-    color: white;
-    display: none;
-}
-a{
-    text-decoration: none;
-    color: white;
-font-size: large;
-font-weight: 900;
-    
-}
-.title{
-    color: #fff;
-    font-size: 60px;
-    font-weight: 900;
-}
-.intro{
-    color: #fff;
-    font-weight: 500;
-    line-height: 2;
-    font-size: 20px;
-}
-
-    
-    
-    
-    /* position: absolute;
-    bottom: 445px;
-    right: 150px; */
-    
-
-#loc{
-    height: 35px;
-    width: 362px;
-    border-radius: 8px;
-    
-}
-.search-btn{
-    height: 38px;
-    border: 2px;
-    /* border-radius: 8px; */
-    position: absolute;
-    z-index: 1;
-    top: 112%;
-    height: 16%;
-    right: 64%;
-    border: none;
-
-    
-}
-
-.mid-part{
-    padding: 1% 15% 3%;
-}
-.food-location{
-padding: 3% 10%;
-}
-.card-title{
-    font-size: 22px;
-    text-align: left;
-}
-.card{
-    
-}
-
-.image{
-    width: 30%;
-}
-.image:hover{
-    opacity: 0.33;
-}
-
-.row{
-    overflow: hidden;
-}
-.photo{
-    max-width: 15%;
-    height: initial;
-}
-.header{
-    
-    text-align:left;
-    
-    color: #111;
-    
-    
-    
-}
-
-.one,.two,.three,.four{
-    width: 15vw;
-}
-.icon{
-    position: absolute;
-    left: 93%;
-    top: 45%;
-}
-.loc{
-    margin: 4% 0 2%;
-}
-.discription{
-    text-align: center;
-}
-.discription p{
-    padding: 3%;
-    line-height: 2;
-}
-.app-details{
-    font-size: 60px;
-    padding-top: 8%;
-}
-.radio{
-    padding: 4% 0 4% 4%;
-    font-size: 24px;
-}
-#mobile:checked::after{
-   background-color: pink;
-}
-
-.email{
-    padding:1%;
-    width: 40%;
-    display: none;
-}
-.mobile{
-    position: relative;
-    padding: 1%;
-    
-       
-        width: 40%;
-        text-align: center;
-    
-}
-#select{
-    position:absolute;
-   z-index: 1;
-   padding: 0.5%;
-   border-bottom: none;
-   border-right: 0.8px;
-   
-}
-.link-btn{
-    padding: 1%;
-    width: 20%;
-    margin-left: 2%;
-   border-radius: 5px;
-}
-.play-btn{
-    padding: 1%;
-    margin:  4% 2%;
-    width:20%;
-    border-radius: 5px;
-}
-.ply{
-    width: 25vw;
-    padding:10% 8% 8%;
-    position: relative;
-    left: 55%;
-}
-.key{
-    display: none;
-}
-.key-1{
-    display: none;
-}
-.key-2{
-    display: none;
-}
-.isro{
-    position: absolute;
-    top: 4%;
-    left: 98%;
-}
-.tisro{
-    position: absolute;
-    top: 4%;
-    left: 98%;
-    display: none;
-}
-
-.isro-1{
-    position: absolute;
-    top: 4%;
-    left: 98%;
-}
-.tisro-1{
-    position: absolute;
-    top: 4%;
-    left: 98%;
-    display: none;
-}
-
-.isro-2{
-    position: absolute;
-    top: 4%;
-    left: 98%;
-}
-.tisro-2{
-    position: absolute;
-    top: 4%;
-    left: 98%;
-    display: none;
-}
-/* footer in my web site */
-.footer{
-    padding-top: 4%;
-    /* background-color: rgb(144, 151, 184); */
-}
-footer{
-    background-color: rgb(144, 151, 184);
-    padding: 0;
-}
-.footerheader{
-    display: flex;
-    justify-content: space-between;
-
-}
-.footer-btn{
-   border-radius: 8%;
-    
-}
-.footer-foot{
-    padding-top: 3%;
-}
-.footer-all{
-    list-style: none;
-}
-.social-links{
-    display: inline-block;
-    padding-bottom: 3%;
-}
-.footer-play{
-    margin: 4%;
-    padding: 3%;
-    width: 45%;
-    border-radius: 8%;
-    
-}
-/* places */
-
-
-@media (max-width:1000px) {
-    #top{
-        text-align: center;
+/* Animations */
+@keyframes Abouttitle{
+    0%{
+        transform: translateX(0px) rotate(10deg);
     }
-    .toggel{
-        display: block;
+    50%{
+        transform: translateX(10px) rotate(45deg);
     }
-    .nav-item{
-        display: none;
-    }
-    .ply{
-        width: 100vw;
-    padding:0;
-    text-align: center;
-    /* position: relative;
-    left: 55%; */
+    100%{
+        transform: translate(30px) rotate(260deg);
     }
 
-    
-}
-@media (max-width:1000px) {
-    .intro{
-        text-align: center;
-    }
-    
-}
-@media (min-width:1000px) {
-   .nav-item{
-    display: inline-block;
-   }
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  background-image: url(images/top-bg-img.jpg);
+  width: 100%;
+  height: 100vh;
 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/* jay shankar sah-37;
-rinku devi-32
-aman-8 */
+.top h1 {
+  position: absolute;
+  top: 50%;
+  padding: 0 15%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+
+  text-align: center;
+}
+.nav {
+  background-color: #fff;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  color: rgb(175, 19, 45);
+}
+.logo img {
+  padding: 1px 15%;
+  width: 244px;
+  height: 70px;
+}
+.nav-item {
+  list-style: none;
+  display: flex;
+  padding: 1% 10%;
+}
+.nav-item a {
+  text-decoration: none;
+  color: rgb(175, 19, 45);
+}
+.li {
+  padding: 0 20px;
+  font-size: 24px;
+  font-weight: 100;
+}
+.li:last-child {
+  cursor: pointer;
+}
+.select {
+  transition: 2s 0s ease-in-out;
+}
+.option {
+  display: none;
+  height: 0;
+  width: 0;
+  cursor: pointer;
+}
+.option li {
+  padding: 10px;
+}
+.option-design {
+  display: block;
+  width: 144px;
+  height: 450px;
+  background-color: #fff;
+  position: absolute;
+  top: 8%;
+  left: 85%;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(175, 19, 45);
+  box-shadow: 0px 0px 10px 0px grey;
+  position: fixed;
+  padding: 5px;
+  transition: 2s 0s ease-in;
+  padding: 10px;
+}
+.country {
+  width: 100%;
+  height: 54px;
+  position: relative;
+  top: 92%;
+
+  margin: auto;
+  background: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(19, 15, 15, 0.441);
+}
+.country .fg .flag {
+  width: 55px;
+  height: 40px;
+  padding:  15px;
+  border-radius: 25%;
+ 
+}
+.country .fg .toolpin {
+  display: flex;
+  width: 78px;
+  height: 40px;
+  position: absolute;
+  top: -35px;
+  border-radius: 10px;
+
+  background-color: #fff;
+  opacity: 0;
+  text-align: center;
+  transition: 1s 0s ease-in-out;
+  /* pointer-events: none; */
+}
+.country .fg .toolpin::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(15px) rotate(45deg);
+  background-color: #fff;
+}
+.country .fg:hover .toolpin {
+  opacity: 1;
+  /* pointer-events: auto; */
+}
+
+.country h4 {
+  color: #fff;
+}
+.about {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about h3,
+.career h3,
+.press h3 {
+  font-size: 45px;
+  color: rgb(175, 19, 45);
+  animation-name: Abouttitle;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.about p,
+.career p,
+.press p,
+.contact p {
+  line-height: 2;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 18%;
+}
+.about button,
+.career button,
+.press button {
+  margin-top: 19px;
+  width: 275px;
+  height: 55px;
+  font-size: 25px;
+  background-color: rgb(175, 19, 45);
+  color: #fff;
+  border: 1px solid rgb(175, 19, 45);
+}
+.career {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/career-bg-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 100px;
+  transition: 1s 0 ease-in-out;
+}
+.career p,
+.press p {
+  color: rgb(34, 31, 31);
+}
+.press {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/press-bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  padding-top: 100px;
+}
+.contact {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(175, 19, 45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.contact h3 {
+  font-size: 45px;
+}
+.contact button {
+  margin-top: 19px;
+  width: 275px;
+  height: 55px;
+  font-size: 25px;
+  background-color: #fff;
+  color: rgb(175, 19, 45);
+  border: 1px solid #fff;
+}
+.footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+#year {
+  padding-left: 18%;
+}
+.footer img {
+  padding: 1px 8%;
+  width: 244px;
+  height: 70px;
+}
+.footer p {
+  font-size: 20px;
+}
+.social-links {
+  font-size: 25px;
+  color: rgb(175, 19, 45);
+  padding: 10px;
+  text-decoration: none;
+}
+.social-links a {
+  text-decoration: none;
+  color: rgb(175, 19, 45);
+  padding: 10px;
+}
+.media-security {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 8%;
+}
+.content a {
+  color: #111;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
